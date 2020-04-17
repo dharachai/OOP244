@@ -1,0 +1,40 @@
+Dennapa Harachai
+Student ID 153369178
+Section B
+1) Why do you need to allocate new dynamic memory when you increase the size of an existing array of dynamically allocated memory? 
+Answer : Because dynamic memory occur at run time. If we don't allocate new dynamic memory for increasing size of existing array, the complier won't be able to allocate that data's address.
+
+2) The Kingdom structure stores the name of the kingdom in an array of characters. At the end of the program, we do not use the delete operator to deallocate the memory occupied by the name itself. Why don't we need to use the delete e operator on this array itself? 
+Answer : Because we delete the address of the pointer : pKingdom instead of delete the address of the name itself. 
+
+3) There are two display(...) function definitions. How does the compiler know which definition to call from your main function? 
+Answer : the compiler will look at parameters in the function we call in main and call the function that have same parameters.
+4) Describe what have you have learned in this workshop.
+Answer : I learned how to allocate new dynamic memory, deallocate memory and write function overloading.
+
+
+
+
+Quiz 1 Reflection
+
+3. Complete the source code of main_app.cpp
+
+Answered : 
+	
+#include <iostream>
+	
+#include "hello.h"
+	
+using namespace std;
+
+
+
+Reflect :
+	
+#include <iostream>
+	
+#include "hello.h"
+	
+using namespace std;
+	
+using namespace sict;
